@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-class FormularioCadastro extends Component {
+import React, { Component } from 'react';
+class FormularioCadastro extends Component{ 
   render() {
     return (
       <form>
