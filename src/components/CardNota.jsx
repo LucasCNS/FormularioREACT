@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-class CardNota extends React.Component {
+class CardNota extends Component {
   render() {
     return (
       <section>
