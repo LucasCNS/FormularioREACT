@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 class FormularioCadastro extends Component {
   render() {
     return (
@@ -12,4 +11,4 @@ class FormularioCadastro extends Component {
   }
 }
 
-export default App;
+export default FormularioCadastro;

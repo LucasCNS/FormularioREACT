@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import CardNota from "./CardNota";
 
-default class ListaDeNotas extends Component {
+class ListaDeNotas extends Component {
   render() {
     return (
       <>
@@ -25,4 +25,4 @@ default class ListaDeNotas extends Component {
   }
 }
 
-export default App;
+export default ListaDeNotas;
