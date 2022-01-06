@@ -1,38 +1,26 @@
 import React, { Component } from "react";
+import CardNota from "./CardNota";
 
-export default class ListaDeNotas extends Component{
-    render() {
-        return (
-            <><ul>
-                <li>
-                    <section>
-                        <header>
-                            <h3>Título</h3>
-                        </header>
-                        <p>Escreva sua nota</p>
-                    </section>
-                </li>
-            </ul><ul>
-                    <li>
-                        <section>
-                            <header>
-                                <h3>Título</h3>
-                            </header>
-                            <p>Escreva sua nota</p>
-                        </section>
-                    </li>
-                </ul><ul>
-                    <li>
-                        <section>
-                            <header>
-                                <h3>Título</h3>
-                            </header>
-                            <p>Escreva sua nota</p>
-                        </section>
-                    </li>
-                </ul></>
-        )
-    }
-
-    }
-    
+export default class ListaDeNotas extends Component {
+  render() {
+    return (
+      <>
+        <ul>
+          <li>
+            <CardNota />
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <CardNota />
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <CardNota />
+          </li>
+        </ul>
+      </>
+    );
+  }
+}

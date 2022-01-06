@@ -2,11 +2,11 @@ import React from 'react';
 import { FormularioCadastro } from './components/FormularioCadastro';
 import ListaDeNotas from "./components/ListaDeNotas"
 
-function App() {
+class App() {
   return (
     <section>
-      <FormularioCadastro/>
-      <ListaDeNotas/>
+      <FormularioCadastro />
+      <ListaDeNotas />
     </section>
   );
 }
